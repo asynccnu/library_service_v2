@@ -2,8 +2,9 @@ package model
 
 import (
 	"fmt"
-	"github.com/muxih4ck/Go-Web-Application-Template/pkg/auth"
-	"github.com/muxih4ck/Go-Web-Application-Template/pkg/constvar"
+
+	"github.com/asynccnu/library_service_v2/pkg/auth"
+	"github.com/asynccnu/library_service_v2/pkg/constvar"
 
 	validator "gopkg.in/go-playground/validator.v9"
 )

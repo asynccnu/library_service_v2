@@ -1,6 +1,6 @@
-module github.com/muxih4ck/Go-Web-Application-Template
+module github.com/asynccnu/library_service_v2
 
-go 1.12
+go 1.14
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect

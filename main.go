@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/muxih4ck/Go-Web-Application-Template/config"
-	"github.com/muxih4ck/Go-Web-Application-Template/log"
-	"github.com/muxih4ck/Go-Web-Application-Template/model"
-	"github.com/muxih4ck/Go-Web-Application-Template/router"
-	"github.com/muxih4ck/Go-Web-Application-Template/router/middleware"
+	"github.com/asynccnu/library_service_v2/config"
+	"github.com/asynccnu/library_service_v2/log"
+	"github.com/asynccnu/library_service_v2/model"
+	"github.com/asynccnu/library_service_v2/router"
+	"github.com/asynccnu/library_service_v2/router/middleware"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"

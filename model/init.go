@@ -2,9 +2,10 @@ package model
 
 import (
 	"fmt"
+
 	"go.uber.org/zap"
 
-	"github.com/muxih4ck/Go-Web-Application-Template/log"
+	"github.com/asynccnu/library_service_v2/log"
 	"github.com/spf13/viper"
 
 	// MySQL driver.

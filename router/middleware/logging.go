@@ -9,9 +9,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/muxih4ck/Go-Web-Application-Template/handler"
-	"github.com/muxih4ck/Go-Web-Application-Template/log"
-	"github.com/muxih4ck/Go-Web-Application-Template/pkg/errno"
+	"github.com/asynccnu/library_service_v2/handler"
+	"github.com/asynccnu/library_service_v2/log"
+	"github.com/asynccnu/library_service_v2/pkg/errno"
 
 	"github.com/gin-gonic/gin"
 	"github.com/willf/pad"
