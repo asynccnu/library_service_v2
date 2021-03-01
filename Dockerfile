@@ -1,10 +1,8 @@
-FROM golang:1.12.13 
+FROM golang:1.14.3
 ENV GO111MODULE "on"
 ENV GOPROXY "https://goproxy.cn"
-WORKDIR /src/Go-Web-Application-Template
-COPY . /src/Go-Web-Application-Template
+WORKDIR /library_service_v2
+COPY . .
 RUN make
-FROM ubuntu 
-COPY --from=0 /src/Go-Web-Application-Template .
 EXPOSE 8080
 CMD ["./main", "-c", "conf/config.yaml"]
